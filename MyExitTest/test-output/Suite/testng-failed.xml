@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <groups>
+      <run>
+        <include name="sanity"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.MyExitTest.tests.CartTest">
+        <methods>
+          <include name="setExtent"/>
+          <include name="testclose"/>
+          <include name="endReport"/>
+          <include name="openUrl"/>
+          <include name="startTest"/>
+          <include name="CheckCart"/>
+          <include name="intializeDriver"/>
+          <include name="resultTest"/>
+        </methods>
+      </class> <!-- com.MyExitTest.tests.CartTest -->
+      <class name="com.MyExitTest.tests.OtherOptionsTest">
+        <methods>
+          <include name="setExtent"/>
+          <include name="testclose"/>
+          <include name="endReport"/>
+          <include name="openUrl"/>
+          <include name="startTest"/>
+          <include name="NotificationPreference"/>
+          <include name="intializeDriver"/>
+          <include name="resultTest"/>
+          <include name="DownloadApp"/>
+        </methods>
+      </class> <!-- com.MyExitTest.tests.OtherOptionsTest -->
+      <class name="com.MyExitTest.tests.TravelTest">
+        <methods>
+          <include name="setExtent"/>
+          <include name="Travel"/>
+          <include name="testclose"/>
+          <include name="endReport"/>
+          <include name="openUrl"/>
+          <include name="startTest"/>
+          <include name="intializeDriver"/>
+          <include name="resultTest"/>
+        </methods>
+      </class> <!-- com.MyExitTest.tests.TravelTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
