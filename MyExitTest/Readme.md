@@ -2,12 +2,28 @@
 
 <h4>To run the www.flipkart.com Automation Suite from command line in the project folder:</h4>
 
-1. mvn clean test -DsuiteXmlfile= LoginTest.xml.<br>
-2. mvn clean test -DsuiteXmlfile= HomeTest.xml.<br>
-3. mvn clean test -DsuiteXmlfile= SearchboxTest.xml.<br>
-4. mvn clean test -DsuiteXmlfile= CartTest.xml.<br>
-5. mvn clean test -DsuiteXmlfile= TravelTest.xml.<br>
-6. mvn clean test -DsuiteXmlfile= OtherOptionsTest.xml.</h4></h4>
+1. mvn clean test or mvn test -DsuiteXmlfile= LoginTest.xml.<br>
+2. mvn clean test or mvn test -DsuiteXmlfile= HomeTest.xml.<br>
+3. mvn clean test or mvn test -DsuiteXmlfile= SearchboxTest.xml.<br>
+4. mvn clean test or mvn test -DsuiteXmlfile= CartTest.xml.<br>
+5. mvn clean test or mvn test -DsuiteXmlfile= TravelTest.xml.<br>
+6. mvn clean test or mvn test -DsuiteXmlfile= OtherOptionsTest.xml.</h4></h4>
+
+**To run through jenkins:**
+
+-download jenkins.war file<br>
+-run in cmd<br>
+ java -jar jenkins.war --httpPort=8080<br>
+-setup jenkins<br>
+
+**To run using github link:**
+
+-Clone repo from the github link<br>
+-gitHub link :- https://github.com/Khushi-patel07/FlipkartAutomationSuite.git<br>
+
+**To run using bat file:**
+
+-Double click on batchfile.bat
 
 <h4>Testng files description:</h4>
 
@@ -65,4 +81,28 @@
 - Implement logger using Log4j2 in Lig4j2.xml.<br>
 - Logging is an important feature that helps developers to trace out the errors.It is use for tracking events that happen when some software runs.<br>
 - Logs gets placed under Logs folder.<br> 
+
+#####Screenshots:
+![Jenkins Setup](./photoes/image1.png)
+![Jenkins Setup](./photoes/image2.png)
+![Jenkins Setup](./photoes/image3.png)
+![Jenkins Setup](./photoes/image4.png)
+
+
+#####Implemented features:
+-Create atleast 20 automated scenarios across different flows and screens.-**done**<br>
+-Implement POM.-**done**<br>
+-Test data should be read from excel.User has the ability to selective run the test cases by marking yes in the Execution Required field in excel.- **done**<br>
+-Global Parameters should be read from config file like browser name, test site URL, global wait value etc. should be read from a properties file -**done**<br>
+-Use proper waits i.e. implicit wait and explicit wait wherever necessary.-**done**<br>
+-There should be an option to run the test cases in headless mode.-**done**<br>
+-The test should run on following browsers IE, Chrome, FF - **done**<br>
+-There should be an option to run the test cases in headless mode.-**done**<br>
+-Use Grouping, Priority, and enable/disable when creating the TestNG Test Cases.-**done**<br>
+-Assertions and error screenshot in the extent report.-**done**<br>
+-Create reusable libraries and import these as jars in the current project.-**done**(com.ReusableMethod.utils)<br>
+-Create a ReadMe document which has the steps to install and run the code.-**done**<br>
+-Integration with github and Jenkins.-**done**<br>
+-Test Suite should be executable from command line using maven.-**done**<br>
+-Use Logger to implement logging in your test cases.-**done**<br>
 

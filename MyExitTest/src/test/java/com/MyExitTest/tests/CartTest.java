@@ -73,6 +73,7 @@ public class CartTest extends BaseTest {
 		cart.Select();
 		Thread.sleep(2000);
 		cart.Add();
+		Thread.sleep(2000);
 
 		// get actual title of the page
 		String actualTitle = driver.getTitle().toLowerCase();

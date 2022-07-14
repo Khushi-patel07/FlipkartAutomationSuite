@@ -7,14 +7,12 @@
         <methods>
           <include name="setExtent"/>
           <include name="testclose"/>
-          <include name="Facebook"/>
           <include name="endReport"/>
           <include name="openUrl"/>
+          <include name="GiftCards"/>
           <include name="startTest"/>
           <include name="intializeDriver"/>
           <include name="resultTest"/>
-          <include name="DownloadApp"/>
-          <include name="NotificationPreferences"/>
         </methods>
       </class> <!-- com.MyExitTest.tests.OtherOptionsTest -->
     </classes>

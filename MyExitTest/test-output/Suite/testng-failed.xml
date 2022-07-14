@@ -15,21 +15,34 @@
           <include name="endReport"/>
           <include name="openUrl"/>
           <include name="startTest"/>
+          <include name="AddToCart"/>
           <include name="CheckCart"/>
-          <include name="intializeDriver"/>
           <include name="resultTest"/>
+          <include name="intializeDriver"/>
         </methods>
       </class> <!-- com.MyExitTest.tests.CartTest -->
+      <class name="com.MyExitTest.tests.SearchboxTest">
+        <methods>
+          <include name="setExtent"/>
+          <include name="Searchbox"/>
+          <include name="testclose"/>
+          <include name="endReport"/>
+          <include name="openUrl"/>
+          <include name="startTest"/>
+          <include name="resultTest"/>
+          <include name="intializeDriver"/>
+        </methods>
+      </class> <!-- com.MyExitTest.tests.SearchboxTest -->
       <class name="com.MyExitTest.tests.OtherOptionsTest">
         <methods>
           <include name="setExtent"/>
           <include name="testclose"/>
-          <include name="Facebook"/>
           <include name="endReport"/>
           <include name="openUrl"/>
+          <include name="GiftCards"/>
           <include name="startTest"/>
-          <include name="intializeDriver"/>
           <include name="resultTest"/>
+          <include name="intializeDriver"/>
           <include name="DownloadApp"/>
           <include name="NotificationPreferences"/>
         </methods>
@@ -42,8 +55,8 @@
           <include name="endReport"/>
           <include name="openUrl"/>
           <include name="startTest"/>
-          <include name="intializeDriver"/>
           <include name="resultTest"/>
+          <include name="intializeDriver"/>
         </methods>
       </class> <!-- com.MyExitTest.tests.TravelTest -->
     </classes>
