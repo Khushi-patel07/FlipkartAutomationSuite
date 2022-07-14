@@ -1,9 +1,0 @@
-14:55:59,502 [main] INFO  com.MyExitTest.tests.BaseTest- ----------------------------------------------------------------------
-14:55:59,504 [main] INFO  com.MyExitTest.tests.BaseTest- Chrome browser was opened successfully
-14:56:07,287 [main] INFO  com.MyExitTest.tests.BaseTest- www.flipkart.com website was opened
-14:56:07,308 [main] INFO  com.MyExitTest.utils.CommonUtils- Execution Required : yes
-14:56:07,308 [main] INFO  com.MyExitTest.utils.CommonUtils- Expected Title : Flipkart Online Shopping App - Apps on Google Play
-14:56:07,308 [main] INFO  com.MyExitTest.utils.CommonUtils- TestCases Name : DownloadApp
-14:56:08,733 [main] INFO  com.MyExitTest.tests.BaseTest- Test case failed
-14:56:08,862 [main] INFO  com.MyExitTest.tests.BaseTest- www.flipkart.com website was closed
-14:56:08,862 [main] INFO  com.MyExitTest.tests.BaseTest- ----------------------------------------------------------------------

@@ -17,6 +17,7 @@ import org.openqa.selenium.edge.EdgeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.firefox.FirefoxOptions;
 import org.openqa.selenium.ie.InternetExplorerDriver;
+import org.openqa.selenium.ie.InternetExplorerOptions;
 import org.testng.ITestResult;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.AfterSuite;
@@ -24,7 +25,7 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeSuite;
 
 import com.MyExitTest.utils.ExcelReader;
-import com.ReusableMethod.utils.Screenshot;
+import com.MyExitTest.utils.Screenshot;
 import com.relevantcodes.extentreports.ExtentReports;
 import com.relevantcodes.extentreports.ExtentTest;
 import com.relevantcodes.extentreports.LogStatus;
@@ -32,7 +33,6 @@ import com.relevantcodes.extentreports.LogStatus;
 public class BaseTest {
 
 	private static Logger logger = LogManager.getLogger(); // Logger implementation
-    Screenshot ScreenShots=new Screenshot();
     
 	static WebDriver driver;
 	public static File file;
@@ -45,7 +45,7 @@ public class BaseTest {
 	public static ExcelReader reader = null;
 
 	static {
-		reader = new ExcelReader("./Resources/TestData.xlsx");
+		reader = new ExcelReader("./Resources/TestData.xlsx"); // to read date from excel file
 	}
 
 	static {
@@ -80,6 +80,7 @@ public class BaseTest {
 	}
 
 	@BeforeMethod(groups = { "sanity", "invalid" })
+	// to initialize driver
 	public static void intializeDriver() {
 
 		String driver_mode = properties.getProperty("DriverMode");
@@ -93,15 +94,6 @@ public class BaseTest {
 				driver = new ChromeDriver();
 				logger.info("----------------------------------------------------------------------");
 				logger.info("Chrome browser was opened successfully");
-				driver.manage().window().maximize();
-				String ImplicitWaitTime = properties.getProperty("ImplicitWaitTime");
-			}
-			if (browser_name.equals("edge")) {
-				// Condition for edge driver
-				System.setProperty(properties.getProperty("EdgeDriver"), properties.getProperty("Edgepath"));
-				driver = new EdgeDriver();
-				logger.info("----------------------------------------------------------------------");
-				logger.info("Edge browser was opened successfully");
 				driver.manage().window().maximize();
 				String ImplicitWaitTime = properties.getProperty("ImplicitWaitTime");
 			}
@@ -141,23 +133,12 @@ public class BaseTest {
 				driver.manage().window().maximize();
 				String ImplicitWaitTime = properties.getProperty("ImplicitWaitTime");
 			}
-//		if (browser_name.equals("edge")) {
-//
-//			System.setProperty(properties.getProperty("EdgeDriver"), properties.getProperty("Edgepath"));
-//			 EdgeOptions options =new EdgeOptions();// Create object of Edge options
-//		     options.addArguments("headless");// Add the headless argument
-//		     driver= new EdgeDriver(options);// Pass the options parameter in the Edge driver declaration
-			// logger.info("----------------------------------------------------------------------");
-//			logger.info("Edge browser was opened successfully");
-//			driver.manage().window().maximize();
-//			String ImplicitWaitTime = properties.getProperty("ImplicitWaitTime");
-//		}
+
 			if (browser_name.equals("ie")) {
 
 				System.setProperty(properties.getProperty("IEDriver"), properties.getProperty("IEPath"));
-				// InternetExplorerOptions options = new InternetExplorerOptions();// Create
-				// object of InternetExplorer options
-				// options.addArguments("headless");// Add the headless argument
+				InternetExplorerOptions options = new InternetExplorerOptions();// Create object of InternetExplorer options
+				//options.addArguments("headless");// Add the headless argument
 				driver = new InternetExplorerDriver();// Pass the options parameter in the InternetExplorer driver declaration
 				logger.info("----------------------------------------------------------------------");
 				logger.info("InternetExplorer browser was opened successfully");
@@ -196,7 +177,7 @@ public class BaseTest {
 	public void resultTest(ITestResult result) throws IOException {
 		if (result.getStatus() == ITestResult.FAILURE) {
 
-			String imagePath = ScreenShots.captureScreenshot(driver, result.getName());
+			String imagePath = Screenshot.captureScreenshot(driver, result.getName());
 			extentTest.log(LogStatus.FAIL, extentTest.addScreenCapture(imagePath), "Test case failed");
 			logger.info("Test case failed");
 		} else {

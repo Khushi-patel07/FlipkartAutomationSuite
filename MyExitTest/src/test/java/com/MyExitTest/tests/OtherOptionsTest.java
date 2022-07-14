@@ -390,7 +390,7 @@ public class OtherOptionsTest extends BaseTest {
 		String actualTitle = driver.getTitle().toLowerCase();
 		// assertion:check that actual and expected title are equal
 		Assert.assertTrue(actualTitle.contains(expectedTitle.toLowerCase()), "Assertion on actual and expected title");
-		logger.info("Actual Title : Flipkart - Home | Facebookkk");
+		logger.info("Actual Title : Flipkart - Home | Facebook");
 		logger.info("Flipkart FACEBOOK page opened");
 	}
 }

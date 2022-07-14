@@ -9,11 +9,11 @@
 		</groups>
 		<classes>
 			<class name="com.MyExitTest.tests.LoginTest" />
-			<class name="com.MyExitTest.tests.HomeTest" />
-			<class name="com.MyExitTest.tests.CartTest" />
-			<class name="com.MyExitTest.tests.SearchboxTest" />
-			<class name="com.MyExitTest.tests.TravelTest" />
-			<class name="com.MyExitTest.tests.OtherOptionsTest" />
+            <class name="com.MyExitTest.tests.HomeTest" />
+            <class name="com.MyExitTest.tests.CartTest" />
+            <class name="com.MyExitTest.tests.SearchboxTest" />
+            <class name="com.MyExitTest.tests.TravelTest" />
+            <class name="com.MyExitTest.tests.OtherOptionsTest" />			
 		</classes>
 	</test> <!-- Test -->
 </suite> <!-- Suite -->

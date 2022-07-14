@@ -1,0 +1,226 @@
+18:32:45,645 [main] INFO  com.MyExitTest.tests.BaseTest- ----------------------------------------------------------------------
+18:32:45,651 [main] INFO  com.MyExitTest.tests.BaseTest- Chrome browser was opened successfully
+18:32:49,725 [main] INFO  com.MyExitTest.tests.BaseTest- www.flipkart.com website was opened
+18:32:49,799 [main] INFO  com.MyExitTest.utils.CommonUtils- Email : 8.178671094E9
+18:32:49,799 [main] INFO  com.MyExitTest.utils.CommonUtils- Execution Required : yes
+18:32:49,799 [main] INFO  com.MyExitTest.utils.CommonUtils- Expected Title : Online Shopping Site for Mobiles, Electronics, Furniture, Grocery, Lifestyle, Books & More. Best Offers!
+18:32:49,802 [main] INFO  com.MyExitTest.utils.CommonUtils- TestCases Name : ValidUserLoginIn
+18:32:49,802 [main] INFO  com.MyExitTest.utils.CommonUtils- Password : flip@kart
+18:32:50,316 [main] INFO  com.MyExitTest.tests.LoginTest- Actual Title : Online Shopping Site for Mobiles, Electronics, Furniture, Grocery, Lifestyle, Books & More. Best Offers!
+18:32:50,316 [main] INFO  com.MyExitTest.tests.LoginTest- Valid user login:user logged in successfully
+18:32:50,322 [main] INFO  com.MyExitTest.tests.BaseTest- Test case passed 
+18:32:50,471 [main] INFO  com.MyExitTest.tests.BaseTest- www.flipkart.com website was closed
+18:32:50,471 [main] INFO  com.MyExitTest.tests.BaseTest- ----------------------------------------------------------------------
+18:32:51,612 [main] INFO  com.MyExitTest.tests.BaseTest- ----------------------------------------------------------------------
+18:32:51,613 [main] INFO  com.MyExitTest.tests.BaseTest- Chrome browser was opened successfully
+18:32:55,263 [main] INFO  com.MyExitTest.tests.BaseTest- www.flipkart.com website was opened
+18:32:55,268 [main] INFO  com.MyExitTest.utils.CommonUtils- Invalid Email : k@gmail.com
+18:32:55,268 [main] INFO  com.MyExitTest.utils.CommonUtils- Execution Required : yes
+18:32:55,269 [main] INFO  com.MyExitTest.utils.CommonUtils- Invalid Password : 1234.0
+18:32:55,269 [main] INFO  com.MyExitTest.utils.CommonUtils- Expected Title : Online Shopping Site for Mobiles, Electronics, Furniture, Grocery, Lifestyle, Books & More. Best Offers!
+18:32:55,269 [main] INFO  com.MyExitTest.utils.CommonUtils- TestCases Name : InValidUserLogIn
+18:32:55,746 [main] INFO  com.MyExitTest.tests.LoginTest- Actual Title : Online Shopping Site for Mobiles, Electronics, Furniture, Grocery, Lifestyle, Books & More. Best Offers!
+18:32:55,747 [main] INFO  com.MyExitTest.tests.LoginTest- Invalid user login:user not be able to login due to invalid credentials
+18:32:55,749 [main] INFO  com.MyExitTest.tests.BaseTest- Test case passed 
+18:32:55,869 [main] INFO  com.MyExitTest.tests.BaseTest- www.flipkart.com website was closed
+18:32:55,869 [main] INFO  com.MyExitTest.tests.BaseTest- ----------------------------------------------------------------------
+18:32:57,053 [main] INFO  com.MyExitTest.tests.BaseTest- ----------------------------------------------------------------------
+18:32:57,054 [main] INFO  com.MyExitTest.tests.BaseTest- Chrome browser was opened successfully
+18:33:01,896 [main] INFO  com.MyExitTest.tests.BaseTest- www.flipkart.com website was opened
+18:33:01,901 [main] INFO  com.MyExitTest.utils.CommonUtils- Blank : '' 
+18:33:01,902 [main] INFO  com.MyExitTest.utils.CommonUtils- Execution Required : yes
+18:33:01,902 [main] INFO  com.MyExitTest.utils.CommonUtils- Expected Title : Online Shopping Site for Mobiles, Electronics, Furniture, Grocery, Lifestyle, Books & More. Best Offers!
+18:33:01,902 [main] INFO  com.MyExitTest.utils.CommonUtils- TestCases Name : BlankUserLogIn
+18:33:02,319 [main] INFO  com.MyExitTest.tests.LoginTest- Actual Title : Online Shopping Site for Mobiles, Electronics, Furniture, Grocery, Lifestyle, Books & More. Best Offers!
+18:33:02,319 [main] INFO  com.MyExitTest.tests.LoginTest- Blank user login:user not be able to login due to blank credentials 
+18:33:02,322 [main] INFO  com.MyExitTest.tests.BaseTest- Test case passed 
+18:33:02,440 [main] INFO  com.MyExitTest.tests.BaseTest- www.flipkart.com website was closed
+18:33:02,440 [main] INFO  com.MyExitTest.tests.BaseTest- ----------------------------------------------------------------------
+18:33:03,638 [main] INFO  com.MyExitTest.tests.BaseTest- ----------------------------------------------------------------------
+18:33:03,638 [main] INFO  com.MyExitTest.tests.BaseTest- Chrome browser was opened successfully
+18:33:07,555 [main] INFO  com.MyExitTest.tests.BaseTest- www.flipkart.com website was opened
+18:33:07,560 [main] INFO  com.MyExitTest.utils.CommonUtils- Execution Required : yes
+18:33:07,560 [main] INFO  com.MyExitTest.utils.CommonUtils- Expected Title : Online Shopping Site for Mobiles, Electronics, Furniture, Grocery, Lifestyle, Books & More. Best Offers!
+18:33:07,561 [main] INFO  com.MyExitTest.utils.CommonUtils- TestCases Name : FlipkartHome
+18:33:09,872 [main] INFO  com.MyExitTest.tests.HomeTest- Actual Title : Online Shopping Site for Mobiles, Electronics, Furniture, Grocery, Lifestyle, Books & More. Best Offers!
+18:33:09,872 [main] INFO  com.MyExitTest.tests.HomeTest- Flipkart homePage opened
+18:33:09,875 [main] INFO  com.MyExitTest.tests.BaseTest- Test case passed 
+18:33:10,007 [main] INFO  com.MyExitTest.tests.BaseTest- www.flipkart.com website was closed
+18:33:10,007 [main] INFO  com.MyExitTest.tests.BaseTest- ----------------------------------------------------------------------
+18:33:11,143 [main] INFO  com.MyExitTest.tests.BaseTest- ----------------------------------------------------------------------
+18:33:11,144 [main] INFO  com.MyExitTest.tests.BaseTest- Chrome browser was opened successfully
+18:33:19,058 [main] INFO  com.MyExitTest.tests.BaseTest- www.flipkart.com website was opened
+18:33:19,064 [main] INFO  com.MyExitTest.utils.CommonUtils- Execution Required : no
+18:33:19,064 [main] INFO  com.MyExitTest.utils.CommonUtils- Expected Title : Shopping Cart | Flipkart.com
+18:33:19,065 [main] INFO  com.MyExitTest.utils.CommonUtils- TestCases Name : CheckCart
+18:33:19,065 [main] INFO  com.MyExitTest.utils.CommonUtils- Execution required is no , skipping the test
+18:33:19,201 [main] INFO  com.MyExitTest.tests.BaseTest- www.flipkart.com website was closed
+18:33:19,201 [main] INFO  com.MyExitTest.tests.BaseTest- ----------------------------------------------------------------------
+18:33:20,341 [main] INFO  com.MyExitTest.tests.BaseTest- ----------------------------------------------------------------------
+18:33:20,342 [main] INFO  com.MyExitTest.tests.BaseTest- Chrome browser was opened successfully
+18:33:26,240 [main] INFO  com.MyExitTest.tests.BaseTest- www.flipkart.com website was opened
+18:33:26,243 [main] INFO  com.MyExitTest.utils.CommonUtils- Execution Required : yes
+18:33:26,243 [main] INFO  com.MyExitTest.utils.CommonUtils- Expected Title : Mastering Selenium WebDriver 3.0: Buy Mastering Selenium WebDriver 3.0 by Collin Mark at Low Price in India | Flipkart.com
+18:33:26,244 [main] INFO  com.MyExitTest.utils.CommonUtils- Searchbox1 : selenium webdriver
+18:33:26,244 [main] INFO  com.MyExitTest.utils.CommonUtils- TestCases Name : AddToCart
+18:33:26,245 [main] INFO  com.MyExitTest.utils.CommonUtils- Email : 8.178671094E9
+18:33:26,246 [main] INFO  com.MyExitTest.utils.CommonUtils- Execution Required : yes
+18:33:26,246 [main] INFO  com.MyExitTest.utils.CommonUtils- Expected Title : Online Shopping Site for Mobiles, Electronics, Furniture, Grocery, Lifestyle, Books & More. Best Offers!
+18:33:26,246 [main] INFO  com.MyExitTest.utils.CommonUtils- TestCases Name : ValidUserLoginIn
+18:33:26,246 [main] INFO  com.MyExitTest.utils.CommonUtils- Password : flip@kart
+18:33:26,730 [main] INFO  com.MyExitTest.tests.LoginTest- Actual Title : Online Shopping Site for Mobiles, Electronics, Furniture, Grocery, Lifestyle, Books & More. Best Offers!
+18:33:26,731 [main] INFO  com.MyExitTest.tests.LoginTest- Valid user login:user logged in successfully
+18:33:32,526 [main] INFO  com.MyExitTest.tests.CartTest- Actual Title : Mastering Selenium WebDriver 3.0: Buy Mastering Selenium WebDriver 3.0 by Collin Mark at Low Price in India | Flipkart.com
+18:33:32,528 [main] INFO  com.MyExitTest.tests.CartTest- Product added to cart Successful
+18:33:32,529 [main] INFO  com.MyExitTest.tests.BaseTest- Test case passed 
+18:33:32,668 [main] INFO  com.MyExitTest.tests.BaseTest- www.flipkart.com website was closed
+18:33:32,668 [main] INFO  com.MyExitTest.tests.BaseTest- ----------------------------------------------------------------------
+18:33:33,864 [main] INFO  com.MyExitTest.tests.BaseTest- ----------------------------------------------------------------------
+18:33:33,864 [main] INFO  com.MyExitTest.tests.BaseTest- Chrome browser was opened successfully
+18:33:37,561 [main] INFO  com.MyExitTest.tests.BaseTest- www.flipkart.com website was opened
+18:33:37,565 [main] INFO  com.MyExitTest.utils.CommonUtils- Execution Required : yes
+18:33:37,565 [main] INFO  com.MyExitTest.utils.CommonUtils- Searchbox : tshirt
+18:33:37,566 [main] INFO  com.MyExitTest.utils.CommonUtils- Expected Title : Tshirt- Buy Products Online at Best Price in India - All Categories | Flipkart.com
+18:33:37,567 [main] INFO  com.MyExitTest.utils.CommonUtils- TestCases Name : Searchbox
+18:33:40,026 [main] INFO  com.MyExitTest.tests.SearchboxTest- Actual Title : Tshirt- Buy Products Online at Best Price in India - All Categories | Flipkart.com
+18:33:40,026 [main] INFO  com.MyExitTest.tests.SearchboxTest- Search for product is Successful
+18:33:40,028 [main] INFO  com.MyExitTest.tests.BaseTest- Test case passed 
+18:33:40,147 [main] INFO  com.MyExitTest.tests.BaseTest- www.flipkart.com website was closed
+18:33:40,147 [main] INFO  com.MyExitTest.tests.BaseTest- ----------------------------------------------------------------------
+18:33:41,345 [main] INFO  com.MyExitTest.tests.BaseTest- ----------------------------------------------------------------------
+18:33:41,345 [main] INFO  com.MyExitTest.tests.BaseTest- Chrome browser was opened successfully
+18:33:46,119 [main] INFO  com.MyExitTest.tests.BaseTest- www.flipkart.com website was opened
+18:33:46,124 [main] INFO  com.MyExitTest.utils.CommonUtils- Execution Required : no
+18:33:46,124 [main] INFO  com.MyExitTest.utils.CommonUtils- Expected Title : Flight Booking | Book Flight Tickets at Lowest Airfare on Flipkart.com
+18:33:46,124 [main] INFO  com.MyExitTest.utils.CommonUtils- TestCases Name : Travel
+18:33:46,124 [main] INFO  com.MyExitTest.utils.CommonUtils- Flight From : Mumbai, BOM - Chatrapati Shivaji International Airport
+18:33:46,125 [main] INFO  com.MyExitTest.utils.CommonUtils- Flight To : Hyderabad, HYD - Rajiv Gandhi International Airport
+18:33:46,125 [main] INFO  com.MyExitTest.utils.CommonUtils- Execution required is no , skipping the test
+18:33:46,260 [main] INFO  com.MyExitTest.tests.BaseTest- www.flipkart.com website was closed
+18:33:46,260 [main] INFO  com.MyExitTest.tests.BaseTest- ----------------------------------------------------------------------
+18:33:47,465 [main] INFO  com.MyExitTest.tests.BaseTest- ----------------------------------------------------------------------
+18:33:47,465 [main] INFO  com.MyExitTest.tests.BaseTest- Chrome browser was opened successfully
+18:33:52,106 [main] INFO  com.MyExitTest.tests.BaseTest- www.flipkart.com website was opened
+18:33:52,109 [main] INFO  com.MyExitTest.utils.CommonUtils- Execution Required : yes
+18:33:52,109 [main] INFO  com.MyExitTest.utils.CommonUtils- Expected Title : Flipkart Plus – The Ultimate Rewards Program for Flipkart Customers | Flipkart.com
+18:33:52,110 [main] INFO  com.MyExitTest.utils.CommonUtils- TestCases Name : Exploreplus
+18:33:54,471 [main] INFO  com.MyExitTest.tests.OtherOptionsTest- Actual Title : Flipkart Plus – The Ultimate Rewards Program for Flipkart Customers | Flipkart.com
+18:33:54,471 [main] INFO  com.MyExitTest.tests.OtherOptionsTest- Flipkart PLUS page opened
+18:33:54,472 [main] INFO  com.MyExitTest.tests.BaseTest- Test case passed 
+18:33:54,572 [main] INFO  com.MyExitTest.tests.BaseTest- www.flipkart.com website was closed
+18:33:54,572 [main] INFO  com.MyExitTest.tests.BaseTest- ----------------------------------------------------------------------
+18:33:55,617 [main] INFO  com.MyExitTest.tests.BaseTest- ----------------------------------------------------------------------
+18:33:55,618 [main] INFO  com.MyExitTest.tests.BaseTest- Chrome browser was opened successfully
+18:34:00,065 [main] INFO  com.MyExitTest.tests.BaseTest- www.flipkart.com website was opened
+18:34:00,069 [main] INFO  com.MyExitTest.utils.CommonUtils- Execution Required : yes
+18:34:00,070 [main] INFO  com.MyExitTest.utils.CommonUtils- Expected Title : Online Shopping India | Buy Mobiles, Electronics, Appliances, Clothing and More Online at Flipkart.com
+18:34:00,070 [main] INFO  com.MyExitTest.utils.CommonUtils- TestCases Name : HelpCenterFlipkart
+18:34:07,173 [main] INFO  com.MyExitTest.tests.OtherOptionsTest- Actual Title : Online Shopping India | Buy Mobiles, Electronics, Appliances, Clothing and More Online at Flipkart.com
+18:34:07,173 [main] INFO  com.MyExitTest.tests.OtherOptionsTest- Flipkart Help Center | 24x7 Customer Care Support opened
+18:34:07,174 [main] INFO  com.MyExitTest.tests.BaseTest- Test case passed 
+18:34:07,287 [main] INFO  com.MyExitTest.tests.BaseTest- www.flipkart.com website was closed
+18:34:07,287 [main] INFO  com.MyExitTest.tests.BaseTest- ----------------------------------------------------------------------
+18:34:08,366 [main] INFO  com.MyExitTest.tests.BaseTest- ----------------------------------------------------------------------
+18:34:08,367 [main] INFO  com.MyExitTest.tests.BaseTest- Chrome browser was opened successfully
+18:34:15,202 [main] INFO  com.MyExitTest.tests.BaseTest- www.flipkart.com website was opened
+18:34:15,204 [main] INFO  com.MyExitTest.utils.CommonUtils- Execution Required : yes
+18:34:15,204 [main] INFO  com.MyExitTest.utils.CommonUtils- Expected Title : Flipkart Offers & Deals of the Day - Get Best Discounts on Mobiles, Electronics, Fashion & Home etc.
+18:34:15,204 [main] INFO  com.MyExitTest.utils.CommonUtils- TestCases Name : TopOffers
+18:34:19,382 [main] INFO  com.MyExitTest.tests.OtherOptionsTest- Actual Title : Flipkart Offers & Deals of the Day - Get Best Discounts on Mobiles, Electronics, Fashion & Home etc.
+18:34:19,382 [main] INFO  com.MyExitTest.tests.OtherOptionsTest- Flipkart TOPOFFERS page opened
+18:34:19,383 [main] INFO  com.MyExitTest.tests.BaseTest- Test case passed 
+18:34:19,483 [main] INFO  com.MyExitTest.tests.BaseTest- www.flipkart.com website was closed
+18:34:19,483 [main] INFO  com.MyExitTest.tests.BaseTest- ----------------------------------------------------------------------
+18:34:20,554 [main] INFO  com.MyExitTest.tests.BaseTest- ----------------------------------------------------------------------
+18:34:20,554 [main] INFO  com.MyExitTest.tests.BaseTest- Chrome browser was opened successfully
+18:34:25,369 [main] INFO  com.MyExitTest.tests.BaseTest- www.flipkart.com website was opened
+18:34:25,371 [main] INFO  com.MyExitTest.utils.CommonUtils- Execution Required : yes
+18:34:25,371 [main] INFO  com.MyExitTest.utils.CommonUtils- Expected Title : Flipkart Brand Health, Brand Pulse, Flipkart Insights, Flipkart Advertising, Commerce Advertising Platform
+18:34:25,371 [main] INFO  com.MyExitTest.utils.CommonUtils- TestCases Name : Advertise
+18:34:51,678 [main] INFO  com.MyExitTest.tests.OtherOptionsTest- Actual Title : Flipkart Brand Health, Brand Pulse, Flipkart Insights, Flipkart Advertising, Commerce Advertising Platform
+18:34:51,679 [main] INFO  com.MyExitTest.tests.OtherOptionsTest- Flipkart ADVERTISING page opened
+18:34:51,681 [main] INFO  com.MyExitTest.tests.BaseTest- Test case passed 
+18:34:51,734 [main] INFO  com.MyExitTest.tests.BaseTest- www.flipkart.com website was closed
+18:34:51,734 [main] INFO  com.MyExitTest.tests.BaseTest- ----------------------------------------------------------------------
+18:34:52,783 [main] INFO  com.MyExitTest.tests.BaseTest- ----------------------------------------------------------------------
+18:34:52,783 [main] INFO  com.MyExitTest.tests.BaseTest- Chrome browser was opened successfully
+18:34:58,352 [main] INFO  com.MyExitTest.tests.BaseTest- www.flipkart.com website was opened
+18:34:58,354 [main] INFO  com.MyExitTest.utils.CommonUtils- Execution Required : yes
+18:34:58,354 [main] INFO  com.MyExitTest.utils.CommonUtils- Expected Title : Sell Online on Flipkart | Grow your business with the leader in Indian e-commerce
+18:34:58,355 [main] INFO  com.MyExitTest.utils.CommonUtils- TestCases Name : BecomeASeller
+18:35:13,069 [main] INFO  com.MyExitTest.tests.OtherOptionsTest- Actual Title : Sell Online on Flipkart | Grow your business with the leader in Indian e-commerce
+18:35:13,069 [main] INFO  com.MyExitTest.tests.OtherOptionsTest- Flipkart SELLER page opened
+18:35:13,071 [main] INFO  com.MyExitTest.tests.BaseTest- Test case passed 
+18:35:13,173 [main] INFO  com.MyExitTest.tests.BaseTest- www.flipkart.com website was closed
+18:35:13,173 [main] INFO  com.MyExitTest.tests.BaseTest- ----------------------------------------------------------------------
+18:35:14,245 [main] INFO  com.MyExitTest.tests.BaseTest- ----------------------------------------------------------------------
+18:35:14,245 [main] INFO  com.MyExitTest.tests.BaseTest- Chrome browser was opened successfully
+18:35:23,859 [main] INFO  com.MyExitTest.tests.BaseTest- www.flipkart.com website was opened
+18:35:23,862 [main] INFO  com.MyExitTest.utils.CommonUtils- Execution Required : yes
+18:35:23,862 [main] INFO  com.MyExitTest.utils.CommonUtils- Expected Title : Flipkart - YouTube
+18:35:23,862 [main] INFO  com.MyExitTest.utils.CommonUtils- TestCases Name : FlipkartYoutube
+18:35:32,467 [main] INFO  com.MyExitTest.tests.OtherOptionsTest- Actual Title : Flipkart - YouTube
+18:35:32,467 [main] INFO  com.MyExitTest.tests.OtherOptionsTest- Flipkart YOUTUBE channel page opened
+18:35:32,468 [main] INFO  com.MyExitTest.tests.BaseTest- Test case passed 
+18:35:32,643 [main] INFO  com.MyExitTest.tests.BaseTest- www.flipkart.com website was closed
+18:35:32,644 [main] INFO  com.MyExitTest.tests.BaseTest- ----------------------------------------------------------------------
+18:35:33,672 [main] INFO  com.MyExitTest.tests.BaseTest- ----------------------------------------------------------------------
+18:35:33,672 [main] INFO  com.MyExitTest.tests.BaseTest- Chrome browser was opened successfully
+18:35:38,430 [main] INFO  com.MyExitTest.tests.BaseTest- www.flipkart.com website was opened
+18:35:38,431 [main] INFO  com.MyExitTest.utils.CommonUtils- Execution Required : yes
+18:35:38,432 [main] INFO  com.MyExitTest.utils.CommonUtils- Expected Title : Online Shopping India | Buy Mobiles, Electronics, Appliances, Clothing and More Online at Flipkart.com
+18:35:38,432 [main] INFO  com.MyExitTest.utils.CommonUtils- TestCases Name : ContactUs
+18:35:42,020 [main] INFO  com.MyExitTest.tests.OtherOptionsTest- Actual Title : Online Shopping India | Buy Mobiles, Electronics, Appliances, Clothing and More Online at Flipkart.com
+18:35:42,021 [main] INFO  com.MyExitTest.tests.OtherOptionsTest- Flipkart CONTACT US page opened
+18:35:42,023 [main] INFO  com.MyExitTest.tests.BaseTest- Test case passed 
+18:35:42,126 [main] INFO  com.MyExitTest.tests.BaseTest- www.flipkart.com website was closed
+18:35:42,127 [main] INFO  com.MyExitTest.tests.BaseTest- ----------------------------------------------------------------------
+18:35:43,168 [main] INFO  com.MyExitTest.tests.BaseTest- ----------------------------------------------------------------------
+18:35:43,168 [main] INFO  com.MyExitTest.tests.BaseTest- Chrome browser was opened successfully
+18:35:48,852 [main] INFO  com.MyExitTest.tests.BaseTest- www.flipkart.com website was opened
+18:35:48,855 [main] INFO  com.MyExitTest.utils.CommonUtils- Execution Required : yes
+18:35:48,855 [main] INFO  com.MyExitTest.utils.CommonUtils- Expected Title : About Us
+18:35:48,855 [main] INFO  com.MyExitTest.utils.CommonUtils- TestCases Name : AboutUs
+18:35:52,047 [main] INFO  com.MyExitTest.tests.OtherOptionsTest- Actual Title : About Us
+18:35:52,047 [main] INFO  com.MyExitTest.tests.OtherOptionsTest- Flipkart ABOUT US page opened
+18:35:52,049 [main] INFO  com.MyExitTest.tests.BaseTest- Test case passed 
+18:35:52,158 [main] INFO  com.MyExitTest.tests.BaseTest- www.flipkart.com website was closed
+18:35:52,158 [main] INFO  com.MyExitTest.tests.BaseTest- ----------------------------------------------------------------------
+18:35:53,182 [main] INFO  com.MyExitTest.tests.BaseTest- ----------------------------------------------------------------------
+18:35:53,182 [main] INFO  com.MyExitTest.tests.BaseTest- Chrome browser was opened successfully
+18:35:57,671 [main] INFO  com.MyExitTest.tests.BaseTest- www.flipkart.com website was opened
+18:35:57,673 [main] INFO  com.MyExitTest.utils.CommonUtils- Execution Required : no
+18:35:57,673 [main] INFO  com.MyExitTest.utils.CommonUtils- Expected Title : Push Store Online - Buy Push Online at Best Price in India | Flipkart.com
+18:35:57,673 [main] INFO  com.MyExitTest.utils.CommonUtils- TestCases Name : NotificationPreferences
+18:35:57,673 [main] INFO  com.MyExitTest.utils.CommonUtils- Execution required is no , skipping the test
+18:35:57,783 [main] INFO  com.MyExitTest.tests.BaseTest- www.flipkart.com website was closed
+18:35:57,784 [main] INFO  com.MyExitTest.tests.BaseTest- ----------------------------------------------------------------------
+18:35:58,880 [main] INFO  com.MyExitTest.tests.BaseTest- ----------------------------------------------------------------------
+18:35:58,880 [main] INFO  com.MyExitTest.tests.BaseTest- Chrome browser was opened successfully
+18:36:03,937 [main] INFO  com.MyExitTest.tests.BaseTest- www.flipkart.com website was opened
+18:36:03,939 [main] INFO  com.MyExitTest.utils.CommonUtils- Execution Required : no
+18:36:03,939 [main] INFO  com.MyExitTest.utils.CommonUtils- Expected Title : Flipkart Online Shopping App - Apps on Google Play
+18:36:03,939 [main] INFO  com.MyExitTest.utils.CommonUtils- TestCases Name : DownloadApp
+18:36:03,940 [main] INFO  com.MyExitTest.utils.CommonUtils- Execution required is no , skipping the test
+18:36:04,034 [main] INFO  com.MyExitTest.tests.BaseTest- www.flipkart.com website was closed
+18:36:04,035 [main] INFO  com.MyExitTest.tests.BaseTest- ----------------------------------------------------------------------
+18:36:05,080 [main] INFO  com.MyExitTest.tests.BaseTest- ----------------------------------------------------------------------
+18:36:05,080 [main] INFO  com.MyExitTest.tests.BaseTest- Chrome browser was opened successfully
+18:36:11,885 [main] INFO  com.MyExitTest.tests.BaseTest- www.flipkart.com website was opened
+18:36:11,887 [main] INFO  com.MyExitTest.utils.CommonUtils- Execution Required : yes
+18:36:11,887 [main] INFO  com.MyExitTest.utils.CommonUtils- Expected Title : Flipkart Gift Cards: Buy Gift Cards & Gift Vouchers Online | Great Offers & Top Brands | Flipkart.com
+18:36:11,887 [main] INFO  com.MyExitTest.utils.CommonUtils- TestCases Name : GiftCards
+18:36:15,988 [main] INFO  com.MyExitTest.tests.OtherOptionsTest- Actual Title : Flipkart Gift Cards: Buy Gift Cards & Gift Vouchers Online | Great Offers & Top Brands | Flipkart.com
+18:36:15,988 [main] INFO  com.MyExitTest.tests.OtherOptionsTest- Flipkart GIFT CARDS page opened
+18:36:15,989 [main] INFO  com.MyExitTest.tests.BaseTest- Test case passed 
+18:36:16,100 [main] INFO  com.MyExitTest.tests.BaseTest- www.flipkart.com website was closed
+18:36:16,101 [main] INFO  com.MyExitTest.tests.BaseTest- ----------------------------------------------------------------------
+18:36:17,147 [main] INFO  com.MyExitTest.tests.BaseTest- ----------------------------------------------------------------------
+18:36:17,147 [main] INFO  com.MyExitTest.tests.BaseTest- Chrome browser was opened successfully
+18:36:21,185 [main] INFO  com.MyExitTest.tests.BaseTest- www.flipkart.com website was opened
+18:36:21,187 [main] INFO  com.MyExitTest.utils.CommonUtils- Execution Required : yes
+18:36:21,187 [main] INFO  com.MyExitTest.utils.CommonUtils- Expected Title : Flipkart - Home | Facebookk
+18:36:21,187 [main] INFO  com.MyExitTest.utils.CommonUtils- TestCases Name : Facebook
+18:36:28,169 [main] INFO  com.MyExitTest.tests.BaseTest- Test case failed
+18:36:28,263 [main] INFO  com.MyExitTest.tests.BaseTest- www.flipkart.com website was closed
+18:36:28,263 [main] INFO  com.MyExitTest.tests.BaseTest- ----------------------------------------------------------------------

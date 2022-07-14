@@ -25,8 +25,11 @@
 - **.com.MyExitTest.utils**:- Defining all the utilities needed for the tests.<br>
 
 ##### Tests.java files description:
-
-- **Base Test**:-The main class which defines @BeforeMethod - to open the browser and get the name of the text-@AfterMethod -to      quit the browser- After Test-to close the extent report.<br>
+- **Base Test**:-The main class which defines:-<br>
+          @BeforeMethod- to open the browser, to open url and get the name of the test.<br>
+          @AfterMethd- to attach screenshot and to quit the browser.<br>
+          @BeforeSuite- to set Extent.<br>
+          @AfterSuite- to end the report.<br>
 - **LoginTest**:- Includes test- to verify valid login,invalid login and blankuser login on flipkart website.<br>
 - **HomeTest**:-Includes test- to verify valid sign in , invalid sign in and blankusername sign in.<br>
 - **SearchboxTest**:- To Search Products.<br>
@@ -48,12 +51,15 @@
 
 #####Drivers and Resources:
 
-- Drivers folder kept all browsers which are used to test website.<br>
-- Resources folder consist config.properties file and TestData.xlsx file.<br>
+- Drivers folder kept all browsers which are used to test website<br>
+                 -chromedriver.exe : drivers for chrome<br>
+                 -geckodriver.exe : drivers for firefox<br>
+                 -msedgedriver.exe: drivers for microsoft edge.<br>
+- Resources folder consist config.properties file to use global parameters and TestData.xlsx file to read test data.<br>
 - Jars folder contain Screenshot.jar file(reusable libraries)for taking screenshots.<br>
 
 #####Headless Mode:
-- Headless mode is a way to run browsers without the actual browser UI being spawned. its running browsers like IE, Chrome, FF,  EDGE without showing actual windows of browsers. In headless mode there is no need a visible UI shell.<br>
+- Headless mode is a way to run browsers without the actual browser UI being spawned. its running browsers like IE, Chrome, FF   without showing actual windows of browsers. In headless mode there is no need a visible UI shell.<br>
 
 #####Logger Implementation:
 - Implement logger using Log4j2 in Lig4j2.xml.<br>

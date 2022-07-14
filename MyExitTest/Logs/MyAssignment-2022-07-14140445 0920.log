@@ -1,9 +1,0 @@
-14:04:47,735 [main] INFO  com.MyExitTest.tests.BaseTest- ----------------------------------------------------------------------
-14:04:47,738 [main] INFO  com.MyExitTest.tests.BaseTest- Chrome browser was opened successfully
-14:04:54,540 [main] INFO  com.MyExitTest.tests.BaseTest- www.flipkart.com website was opened
-14:04:54,561 [main] INFO  com.MyExitTest.utils.CommonUtils- Execution Required : yes
-14:04:54,561 [main] INFO  com.MyExitTest.utils.CommonUtils- Expected Title : Push Store Online - Buy Push Online at Best Price in India | Flipkart.com
-14:04:54,562 [main] INFO  com.MyExitTest.utils.CommonUtils- TestCases Name : NotificationPreference
-14:04:57,952 [main] INFO  com.MyExitTest.tests.BaseTest- Test case failed
-14:04:58,079 [main] INFO  com.MyExitTest.tests.BaseTest- www.flipkart.com website was closed
-14:04:58,079 [main] INFO  com.MyExitTest.tests.BaseTest- ----------------------------------------------------------------------

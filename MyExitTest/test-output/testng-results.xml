@@ -1,80 +1,84 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="11" total="12" passed="0" failed="1" skipped="0">
+<testng-results ignored="10" total="30" passed="15" failed="1" skipped="4">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-07-14T09:25:58Z" name="Default suite" finished-at="2022-07-14T09:26:08Z" duration-ms="10652">
+  <suite started-at="2022-07-14T13:02:43Z" name="Suite" finished-at="2022-07-14T13:06:28Z" duration-ms="224298">
     <groups>
       <group name="invalid">
-        <method signature="OtherOptionsTest.DownloadApp()[pri:18, instance:com.MyExitTest.tests.OtherOptionsTest@659925f4]" name="DownloadApp" class="com.MyExitTest.tests.OtherOptionsTest"/>
+        <method signature="CartTest.AddToCart()[pri:6, instance:com.MyExitTest.tests.CartTest@1bc425e7]" name="AddToCart" class="com.MyExitTest.tests.CartTest"/>
+        <method signature="CartTest.CheckCart()[pri:5, instance:com.MyExitTest.tests.CartTest@1bc425e7]" name="CheckCart" class="com.MyExitTest.tests.CartTest"/>
+        <method signature="HomeTest.FlipkartHome()[pri:4, instance:com.MyExitTest.tests.HomeTest@5116ac09]" name="FlipkartHome" class="com.MyExitTest.tests.HomeTest"/>
+        <method signature="LoginTest.BlankUserLogIn()[pri:3, instance:com.MyExitTest.tests.LoginTest@614aeccc]" name="BlankUserLogIn" class="com.MyExitTest.tests.LoginTest"/>
+        <method signature="LoginTest.InValidUserLogIn()[pri:2, instance:com.MyExitTest.tests.LoginTest@614aeccc]" name="InValidUserLogIn" class="com.MyExitTest.tests.LoginTest"/>
+        <method signature="LoginTest.ValidUserLoginIn()[pri:1, instance:com.MyExitTest.tests.LoginTest@614aeccc]" name="ValidUserLoginIn" class="com.MyExitTest.tests.LoginTest"/>
+        <method signature="OtherOptionsTest.AboutUs()[pri:16, instance:com.MyExitTest.tests.OtherOptionsTest@56ba8773]" name="AboutUs" class="com.MyExitTest.tests.OtherOptionsTest"/>
+        <method signature="OtherOptionsTest.Advertise()[pri:12, instance:com.MyExitTest.tests.OtherOptionsTest@56ba8773]" name="Advertise" class="com.MyExitTest.tests.OtherOptionsTest"/>
+        <method signature="OtherOptionsTest.BecomeASeller()[pri:13, instance:com.MyExitTest.tests.OtherOptionsTest@56ba8773]" name="BecomeASeller" class="com.MyExitTest.tests.OtherOptionsTest"/>
+        <method signature="OtherOptionsTest.ContactUs()[pri:15, instance:com.MyExitTest.tests.OtherOptionsTest@56ba8773]" name="ContactUs" class="com.MyExitTest.tests.OtherOptionsTest"/>
+        <method signature="OtherOptionsTest.DownloadApp()[pri:18, instance:com.MyExitTest.tests.OtherOptionsTest@56ba8773]" name="DownloadApp" class="com.MyExitTest.tests.OtherOptionsTest"/>
+        <method signature="OtherOptionsTest.Exploreplus()[pri:9, instance:com.MyExitTest.tests.OtherOptionsTest@56ba8773]" name="Exploreplus" class="com.MyExitTest.tests.OtherOptionsTest"/>
+        <method signature="OtherOptionsTest.Facebook()[pri:20, instance:com.MyExitTest.tests.OtherOptionsTest@56ba8773]" name="Facebook" class="com.MyExitTest.tests.OtherOptionsTest"/>
+        <method signature="OtherOptionsTest.FlipkartYoutube()[pri:14, instance:com.MyExitTest.tests.OtherOptionsTest@56ba8773]" name="FlipkartYoutube" class="com.MyExitTest.tests.OtherOptionsTest"/>
+        <method signature="OtherOptionsTest.GiftCards()[pri:19, instance:com.MyExitTest.tests.OtherOptionsTest@56ba8773]" name="GiftCards" class="com.MyExitTest.tests.OtherOptionsTest"/>
+        <method signature="OtherOptionsTest.HelpCenterFlipkart()[pri:10, instance:com.MyExitTest.tests.OtherOptionsTest@56ba8773]" name="HelpCenterFlipkart" class="com.MyExitTest.tests.OtherOptionsTest"/>
+        <method signature="OtherOptionsTest.NotificationPreferences()[pri:17, instance:com.MyExitTest.tests.OtherOptionsTest@56ba8773]" name="NotificationPreferences" class="com.MyExitTest.tests.OtherOptionsTest"/>
+        <method signature="OtherOptionsTest.TopOffers()[pri:11, instance:com.MyExitTest.tests.OtherOptionsTest@56ba8773]" name="TopOffers" class="com.MyExitTest.tests.OtherOptionsTest"/>
+        <method signature="SearchboxTest.Searchbox()[pri:7, instance:com.MyExitTest.tests.SearchboxTest@4b2a30d]" name="Searchbox" class="com.MyExitTest.tests.SearchboxTest"/>
+        <method signature="TravelTest.Travel()[pri:8, instance:com.MyExitTest.tests.TravelTest@322803db]" name="Travel" class="com.MyExitTest.tests.TravelTest"/>
       </group> <!-- invalid -->
       <group name="sanity">
-        <method signature="OtherOptionsTest.DownloadApp()[pri:18, instance:com.MyExitTest.tests.OtherOptionsTest@659925f4]" name="DownloadApp" class="com.MyExitTest.tests.OtherOptionsTest"/>
+        <method signature="CartTest.AddToCart()[pri:6, instance:com.MyExitTest.tests.CartTest@1bc425e7]" name="AddToCart" class="com.MyExitTest.tests.CartTest"/>
+        <method signature="CartTest.CheckCart()[pri:5, instance:com.MyExitTest.tests.CartTest@1bc425e7]" name="CheckCart" class="com.MyExitTest.tests.CartTest"/>
+        <method signature="HomeTest.FlipkartHome()[pri:4, instance:com.MyExitTest.tests.HomeTest@5116ac09]" name="FlipkartHome" class="com.MyExitTest.tests.HomeTest"/>
+        <method signature="LoginTest.BlankUserLogIn()[pri:3, instance:com.MyExitTest.tests.LoginTest@614aeccc]" name="BlankUserLogIn" class="com.MyExitTest.tests.LoginTest"/>
+        <method signature="LoginTest.InValidUserLogIn()[pri:2, instance:com.MyExitTest.tests.LoginTest@614aeccc]" name="InValidUserLogIn" class="com.MyExitTest.tests.LoginTest"/>
+        <method signature="LoginTest.ValidUserLoginIn()[pri:1, instance:com.MyExitTest.tests.LoginTest@614aeccc]" name="ValidUserLoginIn" class="com.MyExitTest.tests.LoginTest"/>
+        <method signature="OtherOptionsTest.AboutUs()[pri:16, instance:com.MyExitTest.tests.OtherOptionsTest@56ba8773]" name="AboutUs" class="com.MyExitTest.tests.OtherOptionsTest"/>
+        <method signature="OtherOptionsTest.Advertise()[pri:12, instance:com.MyExitTest.tests.OtherOptionsTest@56ba8773]" name="Advertise" class="com.MyExitTest.tests.OtherOptionsTest"/>
+        <method signature="OtherOptionsTest.BecomeASeller()[pri:13, instance:com.MyExitTest.tests.OtherOptionsTest@56ba8773]" name="BecomeASeller" class="com.MyExitTest.tests.OtherOptionsTest"/>
+        <method signature="OtherOptionsTest.ContactUs()[pri:15, instance:com.MyExitTest.tests.OtherOptionsTest@56ba8773]" name="ContactUs" class="com.MyExitTest.tests.OtherOptionsTest"/>
+        <method signature="OtherOptionsTest.DownloadApp()[pri:18, instance:com.MyExitTest.tests.OtherOptionsTest@56ba8773]" name="DownloadApp" class="com.MyExitTest.tests.OtherOptionsTest"/>
+        <method signature="OtherOptionsTest.Exploreplus()[pri:9, instance:com.MyExitTest.tests.OtherOptionsTest@56ba8773]" name="Exploreplus" class="com.MyExitTest.tests.OtherOptionsTest"/>
+        <method signature="OtherOptionsTest.Facebook()[pri:20, instance:com.MyExitTest.tests.OtherOptionsTest@56ba8773]" name="Facebook" class="com.MyExitTest.tests.OtherOptionsTest"/>
+        <method signature="OtherOptionsTest.FlipkartYoutube()[pri:14, instance:com.MyExitTest.tests.OtherOptionsTest@56ba8773]" name="FlipkartYoutube" class="com.MyExitTest.tests.OtherOptionsTest"/>
+        <method signature="OtherOptionsTest.GiftCards()[pri:19, instance:com.MyExitTest.tests.OtherOptionsTest@56ba8773]" name="GiftCards" class="com.MyExitTest.tests.OtherOptionsTest"/>
+        <method signature="OtherOptionsTest.HelpCenterFlipkart()[pri:10, instance:com.MyExitTest.tests.OtherOptionsTest@56ba8773]" name="HelpCenterFlipkart" class="com.MyExitTest.tests.OtherOptionsTest"/>
+        <method signature="OtherOptionsTest.NotificationPreferences()[pri:17, instance:com.MyExitTest.tests.OtherOptionsTest@56ba8773]" name="NotificationPreferences" class="com.MyExitTest.tests.OtherOptionsTest"/>
+        <method signature="OtherOptionsTest.TopOffers()[pri:11, instance:com.MyExitTest.tests.OtherOptionsTest@56ba8773]" name="TopOffers" class="com.MyExitTest.tests.OtherOptionsTest"/>
+        <method signature="SearchboxTest.Searchbox()[pri:7, instance:com.MyExitTest.tests.SearchboxTest@4b2a30d]" name="Searchbox" class="com.MyExitTest.tests.SearchboxTest"/>
+        <method signature="TravelTest.Travel()[pri:8, instance:com.MyExitTest.tests.TravelTest@322803db]" name="Travel" class="com.MyExitTest.tests.TravelTest"/>
       </group> <!-- sanity -->
     </groups>
-    <test started-at="2022-07-14T09:25:58Z" name="Default test" finished-at="2022-07-14T09:26:08Z" duration-ms="10652">
-      <class name="com.MyExitTest.tests.OtherOptionsTest">
-        <test-method is-config="true" signature="setExtent()[pri:0, instance:com.MyExitTest.tests.OtherOptionsTest@659925f4]" started-at="2022-07-14T09:25:58Z" name="setExtent" finished-at="2022-07-14T09:25:58Z" duration-ms="62" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setExtent -->
-        <test-method is-config="true" signature="intializeDriver()[pri:0, instance:com.MyExitTest.tests.OtherOptionsTest@659925f4]" started-at="2022-07-14T09:25:58Z" name="intializeDriver" finished-at="2022-07-14T09:25:59Z" duration-ms="1406" status="PASS">
+    <test started-at="2022-07-14T13:02:43Z" name="Test" finished-at="2022-07-14T13:06:28Z" duration-ms="224298">
+      <class name="com.MyExitTest.tests.TravelTest">
+        <test-method is-config="true" signature="intializeDriver()[pri:0, instance:com.MyExitTest.tests.TravelTest@322803db]" started-at="2022-07-14T13:03:40Z" name="intializeDriver" finished-at="2022-07-14T13:03:41Z" duration-ms="1327" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- intializeDriver -->
-        <test-method is-config="true" signature="openUrl()[pri:0, instance:com.MyExitTest.tests.OtherOptionsTest@659925f4]" started-at="2022-07-14T09:25:59Z" name="openUrl" finished-at="2022-07-14T09:26:07Z" duration-ms="7659" status="PASS">
+        <test-method is-config="true" signature="openUrl()[pri:0, instance:com.MyExitTest.tests.TravelTest@322803db]" started-at="2022-07-14T13:03:41Z" name="openUrl" finished-at="2022-07-14T13:03:46Z" duration-ms="4644" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openUrl -->
-        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:com.MyExitTest.tests.OtherOptionsTest@659925f4]" started-at="2022-07-14T09:26:07Z" name="startTest" finished-at="2022-07-14T09:26:07Z" duration-ms="7" status="PASS">
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:com.MyExitTest.tests.TravelTest@322803db]" started-at="2022-07-14T13:03:46Z" name="startTest" finished-at="2022-07-14T13:03:46Z" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public static void com.MyExitTest.tests.OtherOptionsTest.DownloadApp() throws java.lang.InterruptedException]]>
+                <![CDATA[public static void com.MyExitTest.tests.TravelTest.Travel() throws java.lang.InterruptedException]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startTest -->
-        <test-method signature="DownloadApp()[pri:18, instance:com.MyExitTest.tests.OtherOptionsTest@659925f4]" started-at="2022-07-14T09:26:07Z" name="DownloadApp" finished-at="2022-07-14T09:26:08Z" duration-ms="1275" status="FAIL">
-          <exception class="org.openqa.selenium.ElementClickInterceptedException">
+        <test-method signature="Travel()[pri:8, instance:com.MyExitTest.tests.TravelTest@322803db]" started-at="2022-07-14T13:03:46Z" name="Travel" finished-at="2022-07-14T13:03:46Z" duration-ms="5" status="SKIP">
+          <exception class="org.testng.SkipException">
             <message>
-              <![CDATA[element click intercepted: Element is not clickable at point (931, 28)
-  (Session info: headless chrome=103.0.5060.114)
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'IN-HL5L1J3', ip: '192.168.88.49', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.114, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\KHUSHI~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:56919}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 6185596fd496102549046bb6b9339f42]]>
+              <![CDATA[Skipping this exception]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element is not clickable at point (931, 28)
-  (Session info: headless chrome=103.0.5060.114)
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'IN-HL5L1J3', ip: '192.168.88.49', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.114, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\KHUSHI~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:56919}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 6185596fd496102549046bb6b9339f42
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
-at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
-at com.sun.proxy.$Proxy28.click(Unknown Source)
-at com.MyExitTest.pages.OtherOptionsPage.MoreOPtion(OtherOptionsPage.java:134)
-at com.MyExitTest.tests.OtherOptionsTest.DownloadApp(OtherOptionsTest.java:312)
+              <![CDATA[org.testng.SkipException: Skipping this exception
+at com.MyExitTest.utils.CommonUtils.toCheckExecutionRequired(CommonUtils.java:33)
+at com.MyExitTest.tests.TravelTest.Travel(TravelTest.java:35)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -102,30 +106,912 @@ at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
+          </exception> <!-- org.testng.SkipException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- DownloadApp -->
-        <test-method is-config="true" signature="resultTest(org.testng.ITestResult)[pri:0, instance:com.MyExitTest.tests.OtherOptionsTest@659925f4]" started-at="2022-07-14T09:26:08Z" name="resultTest" finished-at="2022-07-14T09:26:08Z" duration-ms="160" status="PASS">
+        </test-method> <!-- Travel -->
+        <test-method is-config="true" signature="testclose()[pri:0, instance:com.MyExitTest.tests.TravelTest@322803db]" started-at="2022-07-14T13:03:46Z" name="testclose" finished-at="2022-07-14T13:03:46Z" duration-ms="133" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testclose -->
+        <test-method is-config="true" signature="resultTest(org.testng.ITestResult)[pri:0, instance:com.MyExitTest.tests.TravelTest@322803db]" started-at="2022-07-14T13:03:46Z" name="resultTest" finished-at="2022-07-14T13:03:46Z" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=DownloadApp status=FAILURE method=OtherOptionsTest.DownloadApp()[pri:18, instance:com.MyExitTest.tests.OtherOptionsTest@659925f4] output={null}]]]>
+                <![CDATA[[TestResult name=Travel status=SKIP method=TravelTest.Travel()[pri:8, instance:com.MyExitTest.tests.TravelTest@322803db] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- resultTest -->
-        <test-method is-config="true" signature="testclose()[pri:0, instance:com.MyExitTest.tests.OtherOptionsTest@659925f4]" started-at="2022-07-14T09:26:08Z" name="testclose" finished-at="2022-07-14T09:26:08Z" duration-ms="128" status="PASS">
+      </class> <!-- com.MyExitTest.tests.TravelTest -->
+      <class name="com.MyExitTest.tests.LoginTest">
+        <test-method is-config="true" signature="setExtent()[pri:0, instance:com.MyExitTest.tests.LoginTest@614aeccc]" started-at="2022-07-14T13:02:43Z" name="setExtent" finished-at="2022-07-14T13:02:43Z" duration-ms="100" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setExtent -->
+        <test-method is-config="true" signature="intializeDriver()[pri:0, instance:com.MyExitTest.tests.LoginTest@614aeccc]" started-at="2022-07-14T13:02:43Z" name="intializeDriver" finished-at="2022-07-14T13:02:45Z" duration-ms="1803" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intializeDriver -->
+        <test-method is-config="true" signature="openUrl()[pri:0, instance:com.MyExitTest.tests.LoginTest@614aeccc]" started-at="2022-07-14T13:02:45Z" name="openUrl" finished-at="2022-07-14T13:02:49Z" duration-ms="3940" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openUrl -->
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:com.MyExitTest.tests.LoginTest@614aeccc]" started-at="2022-07-14T13:02:49Z" name="startTest" finished-at="2022-07-14T13:02:49Z" duration-ms="8" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public static void com.MyExitTest.tests.LoginTest.ValidUserLoginIn() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method signature="ValidUserLoginIn()[pri:1, instance:com.MyExitTest.tests.LoginTest@614aeccc]" started-at="2022-07-14T13:02:49Z" name="ValidUserLoginIn" finished-at="2022-07-14T13:02:50Z" duration-ms="582" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidUserLoginIn -->
+        <test-method is-config="true" signature="resultTest(org.testng.ITestResult)[pri:0, instance:com.MyExitTest.tests.LoginTest@614aeccc]" started-at="2022-07-14T13:02:50Z" name="resultTest" finished-at="2022-07-14T13:02:50Z" duration-ms="4" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ValidUserLoginIn status=SUCCESS method=LoginTest.ValidUserLoginIn()[pri:1, instance:com.MyExitTest.tests.LoginTest@614aeccc] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resultTest -->
+        <test-method is-config="true" signature="testclose()[pri:0, instance:com.MyExitTest.tests.LoginTest@614aeccc]" started-at="2022-07-14T13:02:50Z" name="testclose" finished-at="2022-07-14T13:02:50Z" duration-ms="147" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testclose -->
-        <test-method is-config="true" signature="endReport()[pri:0, instance:com.MyExitTest.tests.OtherOptionsTest@659925f4]" started-at="2022-07-14T09:26:08Z" name="endReport" finished-at="2022-07-14T09:26:09Z" duration-ms="166" status="PASS">
+        <test-method is-config="true" signature="intializeDriver()[pri:0, instance:com.MyExitTest.tests.LoginTest@614aeccc]" started-at="2022-07-14T13:02:50Z" name="intializeDriver" finished-at="2022-07-14T13:02:51Z" duration-ms="1269" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intializeDriver -->
+        <test-method is-config="true" signature="openUrl()[pri:0, instance:com.MyExitTest.tests.LoginTest@614aeccc]" started-at="2022-07-14T13:02:51Z" name="openUrl" finished-at="2022-07-14T13:02:55Z" duration-ms="3518" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openUrl -->
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:com.MyExitTest.tests.LoginTest@614aeccc]" started-at="2022-07-14T13:02:55Z" name="startTest" finished-at="2022-07-14T13:02:55Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.MyExitTest.tests.LoginTest.InValidUserLogIn()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method signature="InValidUserLogIn()[pri:2, instance:com.MyExitTest.tests.LoginTest@614aeccc]" started-at="2022-07-14T13:02:55Z" name="InValidUserLogIn" finished-at="2022-07-14T13:02:55Z" duration-ms="483" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InValidUserLogIn -->
+        <test-method is-config="true" signature="resultTest(org.testng.ITestResult)[pri:0, instance:com.MyExitTest.tests.LoginTest@614aeccc]" started-at="2022-07-14T13:02:55Z" name="resultTest" finished-at="2022-07-14T13:02:55Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=InValidUserLogIn status=SUCCESS method=LoginTest.InValidUserLogIn()[pri:2, instance:com.MyExitTest.tests.LoginTest@614aeccc] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resultTest -->
+        <test-method is-config="true" signature="testclose()[pri:0, instance:com.MyExitTest.tests.LoginTest@614aeccc]" started-at="2022-07-14T13:02:55Z" name="testclose" finished-at="2022-07-14T13:02:55Z" duration-ms="119" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testclose -->
+        <test-method is-config="true" signature="intializeDriver()[pri:0, instance:com.MyExitTest.tests.LoginTest@614aeccc]" started-at="2022-07-14T13:02:55Z" name="intializeDriver" finished-at="2022-07-14T13:02:57Z" duration-ms="1305" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intializeDriver -->
+        <test-method is-config="true" signature="openUrl()[pri:0, instance:com.MyExitTest.tests.LoginTest@614aeccc]" started-at="2022-07-14T13:02:57Z" name="openUrl" finished-at="2022-07-14T13:03:01Z" duration-ms="4720" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openUrl -->
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:com.MyExitTest.tests.LoginTest@614aeccc]" started-at="2022-07-14T13:03:01Z" name="startTest" finished-at="2022-07-14T13:03:01Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.MyExitTest.tests.LoginTest.BlankUserLogIn()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method signature="BlankUserLogIn()[pri:3, instance:com.MyExitTest.tests.LoginTest@614aeccc]" started-at="2022-07-14T13:03:01Z" name="BlankUserLogIn" finished-at="2022-07-14T13:03:02Z" duration-ms="422" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BlankUserLogIn -->
+        <test-method is-config="true" signature="resultTest(org.testng.ITestResult)[pri:0, instance:com.MyExitTest.tests.LoginTest@614aeccc]" started-at="2022-07-14T13:03:02Z" name="resultTest" finished-at="2022-07-14T13:03:02Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=BlankUserLogIn status=SUCCESS method=LoginTest.BlankUserLogIn()[pri:3, instance:com.MyExitTest.tests.LoginTest@614aeccc] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resultTest -->
+        <test-method is-config="true" signature="testclose()[pri:0, instance:com.MyExitTest.tests.LoginTest@614aeccc]" started-at="2022-07-14T13:03:02Z" name="testclose" finished-at="2022-07-14T13:03:02Z" duration-ms="118" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testclose -->
+        <test-method is-config="true" signature="endReport()[pri:0, instance:com.MyExitTest.tests.LoginTest@614aeccc]" started-at="2022-07-14T13:06:28Z" name="endReport" finished-at="2022-07-14T13:06:28Z" duration-ms="370" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- endReport -->
+      </class> <!-- com.MyExitTest.tests.LoginTest -->
+      <class name="com.MyExitTest.tests.CartTest">
+        <test-method is-config="true" signature="intializeDriver()[pri:0, instance:com.MyExitTest.tests.CartTest@1bc425e7]" started-at="2022-07-14T13:03:10Z" name="intializeDriver" finished-at="2022-07-14T13:03:11Z" duration-ms="1253" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intializeDriver -->
+        <test-method is-config="true" signature="openUrl()[pri:0, instance:com.MyExitTest.tests.CartTest@1bc425e7]" started-at="2022-07-14T13:03:11Z" name="openUrl" finished-at="2022-07-14T13:03:19Z" duration-ms="7797" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openUrl -->
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:com.MyExitTest.tests.CartTest@1bc425e7]" started-at="2022-07-14T13:03:19Z" name="startTest" finished-at="2022-07-14T13:03:19Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public static void com.MyExitTest.tests.CartTest.CheckCart() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method signature="CheckCart()[pri:5, instance:com.MyExitTest.tests.CartTest@1bc425e7]" started-at="2022-07-14T13:03:19Z" name="CheckCart" finished-at="2022-07-14T13:03:19Z" duration-ms="5" status="SKIP">
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[Skipping this exception]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: Skipping this exception
+at com.MyExitTest.utils.CommonUtils.toCheckExecutionRequired(CommonUtils.java:33)
+at com.MyExitTest.tests.CartTest.CheckCart(CartTest.java:33)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckCart -->
+        <test-method is-config="true" signature="testclose()[pri:0, instance:com.MyExitTest.tests.CartTest@1bc425e7]" started-at="2022-07-14T13:03:19Z" name="testclose" finished-at="2022-07-14T13:03:19Z" duration-ms="134" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testclose -->
+        <test-method is-config="true" signature="resultTest(org.testng.ITestResult)[pri:0, instance:com.MyExitTest.tests.CartTest@1bc425e7]" started-at="2022-07-14T13:03:19Z" name="resultTest" finished-at="2022-07-14T13:03:19Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=CheckCart status=SKIP method=CartTest.CheckCart()[pri:5, instance:com.MyExitTest.tests.CartTest@1bc425e7] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resultTest -->
+        <test-method is-config="true" signature="intializeDriver()[pri:0, instance:com.MyExitTest.tests.CartTest@1bc425e7]" started-at="2022-07-14T13:03:19Z" name="intializeDriver" finished-at="2022-07-14T13:03:20Z" duration-ms="1273" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intializeDriver -->
+        <test-method is-config="true" signature="openUrl()[pri:0, instance:com.MyExitTest.tests.CartTest@1bc425e7]" started-at="2022-07-14T13:03:20Z" name="openUrl" finished-at="2022-07-14T13:03:26Z" duration-ms="5764" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openUrl -->
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:com.MyExitTest.tests.CartTest@1bc425e7]" started-at="2022-07-14T13:03:26Z" name="startTest" finished-at="2022-07-14T13:03:26Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.MyExitTest.tests.CartTest.AddToCart() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method signature="AddToCart()[pri:6, instance:com.MyExitTest.tests.CartTest@1bc425e7]" started-at="2022-07-14T13:03:26Z" name="AddToCart" finished-at="2022-07-14T13:03:32Z" duration-ms="6288" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddToCart -->
+        <test-method is-config="true" signature="resultTest(org.testng.ITestResult)[pri:0, instance:com.MyExitTest.tests.CartTest@1bc425e7]" started-at="2022-07-14T13:03:32Z" name="resultTest" finished-at="2022-07-14T13:03:32Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=AddToCart status=SUCCESS method=CartTest.AddToCart()[pri:6, instance:com.MyExitTest.tests.CartTest@1bc425e7] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resultTest -->
+        <test-method is-config="true" signature="testclose()[pri:0, instance:com.MyExitTest.tests.CartTest@1bc425e7]" started-at="2022-07-14T13:03:32Z" name="testclose" finished-at="2022-07-14T13:03:32Z" duration-ms="139" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testclose -->
+      </class> <!-- com.MyExitTest.tests.CartTest -->
+      <class name="com.MyExitTest.tests.OtherOptionsTest">
+        <test-method is-config="true" signature="intializeDriver()[pri:0, instance:com.MyExitTest.tests.OtherOptionsTest@56ba8773]" started-at="2022-07-14T13:03:46Z" name="intializeDriver" finished-at="2022-07-14T13:03:47Z" duration-ms="1340" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intializeDriver -->
+        <test-method is-config="true" signature="openUrl()[pri:0, instance:com.MyExitTest.tests.OtherOptionsTest@56ba8773]" started-at="2022-07-14T13:03:47Z" name="openUrl" finished-at="2022-07-14T13:03:52Z" duration-ms="4506" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openUrl -->
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:com.MyExitTest.tests.OtherOptionsTest@56ba8773]" started-at="2022-07-14T13:03:52Z" name="startTest" finished-at="2022-07-14T13:03:52Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.MyExitTest.tests.OtherOptionsTest.Exploreplus() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method signature="Exploreplus()[pri:9, instance:com.MyExitTest.tests.OtherOptionsTest@56ba8773]" started-at="2022-07-14T13:03:52Z" name="Exploreplus" finished-at="2022-07-14T13:03:54Z" duration-ms="2364" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Exploreplus -->
+        <test-method is-config="true" signature="testclose()[pri:0, instance:com.MyExitTest.tests.OtherOptionsTest@56ba8773]" started-at="2022-07-14T13:03:54Z" name="testclose" finished-at="2022-07-14T13:03:54Z" duration-ms="100" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testclose -->
+        <test-method is-config="true" signature="resultTest(org.testng.ITestResult)[pri:0, instance:com.MyExitTest.tests.OtherOptionsTest@56ba8773]" started-at="2022-07-14T13:03:54Z" name="resultTest" finished-at="2022-07-14T13:03:54Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Exploreplus status=SUCCESS method=OtherOptionsTest.Exploreplus()[pri:9, instance:com.MyExitTest.tests.OtherOptionsTest@56ba8773] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resultTest -->
+        <test-method is-config="true" signature="intializeDriver()[pri:0, instance:com.MyExitTest.tests.OtherOptionsTest@56ba8773]" started-at="2022-07-14T13:03:54Z" name="intializeDriver" finished-at="2022-07-14T13:03:55Z" duration-ms="1165" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intializeDriver -->
+        <test-method is-config="true" signature="openUrl()[pri:0, instance:com.MyExitTest.tests.OtherOptionsTest@56ba8773]" started-at="2022-07-14T13:03:55Z" name="openUrl" finished-at="2022-07-14T13:04:00Z" duration-ms="4327" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openUrl -->
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:com.MyExitTest.tests.OtherOptionsTest@56ba8773]" started-at="2022-07-14T13:04:00Z" name="startTest" finished-at="2022-07-14T13:04:00Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public static void com.MyExitTest.tests.OtherOptionsTest.HelpCenterFlipkart() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method signature="HelpCenterFlipkart()[pri:10, instance:com.MyExitTest.tests.OtherOptionsTest@56ba8773]" started-at="2022-07-14T13:04:00Z" name="HelpCenterFlipkart" finished-at="2022-07-14T13:04:07Z" duration-ms="7107" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HelpCenterFlipkart -->
+        <test-method is-config="true" signature="resultTest(org.testng.ITestResult)[pri:0, instance:com.MyExitTest.tests.OtherOptionsTest@56ba8773]" started-at="2022-07-14T13:04:07Z" name="resultTest" finished-at="2022-07-14T13:04:07Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=HelpCenterFlipkart status=SUCCESS method=OtherOptionsTest.HelpCenterFlipkart()[pri:10, instance:com.MyExitTest.tests.OtherOptionsTest@56ba8773] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resultTest -->
+        <test-method is-config="true" signature="testclose()[pri:0, instance:com.MyExitTest.tests.OtherOptionsTest@56ba8773]" started-at="2022-07-14T13:04:07Z" name="testclose" finished-at="2022-07-14T13:04:07Z" duration-ms="112" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testclose -->
+        <test-method is-config="true" signature="intializeDriver()[pri:0, instance:com.MyExitTest.tests.OtherOptionsTest@56ba8773]" started-at="2022-07-14T13:04:07Z" name="intializeDriver" finished-at="2022-07-14T13:04:08Z" duration-ms="1193" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intializeDriver -->
+        <test-method is-config="true" signature="openUrl()[pri:0, instance:com.MyExitTest.tests.OtherOptionsTest@56ba8773]" started-at="2022-07-14T13:04:08Z" name="openUrl" finished-at="2022-07-14T13:04:15Z" duration-ms="6721" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openUrl -->
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:com.MyExitTest.tests.OtherOptionsTest@56ba8773]" started-at="2022-07-14T13:04:15Z" name="startTest" finished-at="2022-07-14T13:04:15Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public static void com.MyExitTest.tests.OtherOptionsTest.TopOffers() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method signature="TopOffers()[pri:11, instance:com.MyExitTest.tests.OtherOptionsTest@56ba8773]" started-at="2022-07-14T13:04:15Z" name="TopOffers" finished-at="2022-07-14T13:04:19Z" duration-ms="4179" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TopOffers -->
+        <test-method is-config="true" signature="testclose()[pri:0, instance:com.MyExitTest.tests.OtherOptionsTest@56ba8773]" started-at="2022-07-14T13:04:19Z" name="testclose" finished-at="2022-07-14T13:04:19Z" duration-ms="101" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testclose -->
+        <test-method is-config="true" signature="resultTest(org.testng.ITestResult)[pri:0, instance:com.MyExitTest.tests.OtherOptionsTest@56ba8773]" started-at="2022-07-14T13:04:19Z" name="resultTest" finished-at="2022-07-14T13:04:19Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TopOffers status=SUCCESS method=OtherOptionsTest.TopOffers()[pri:11, instance:com.MyExitTest.tests.OtherOptionsTest@56ba8773] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resultTest -->
+        <test-method is-config="true" signature="intializeDriver()[pri:0, instance:com.MyExitTest.tests.OtherOptionsTest@56ba8773]" started-at="2022-07-14T13:04:19Z" name="intializeDriver" finished-at="2022-07-14T13:04:20Z" duration-ms="1184" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intializeDriver -->
+        <test-method is-config="true" signature="openUrl()[pri:0, instance:com.MyExitTest.tests.OtherOptionsTest@56ba8773]" started-at="2022-07-14T13:04:20Z" name="openUrl" finished-at="2022-07-14T13:04:25Z" duration-ms="4700" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openUrl -->
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:com.MyExitTest.tests.OtherOptionsTest@56ba8773]" started-at="2022-07-14T13:04:25Z" name="startTest" finished-at="2022-07-14T13:04:25Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public static void com.MyExitTest.tests.OtherOptionsTest.Advertise() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method signature="Advertise()[pri:12, instance:com.MyExitTest.tests.OtherOptionsTest@56ba8773]" started-at="2022-07-14T13:04:25Z" name="Advertise" finished-at="2022-07-14T13:04:51Z" duration-ms="26309" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Advertise -->
+        <test-method is-config="true" signature="resultTest(org.testng.ITestResult)[pri:0, instance:com.MyExitTest.tests.OtherOptionsTest@56ba8773]" started-at="2022-07-14T13:04:51Z" name="resultTest" finished-at="2022-07-14T13:04:51Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Advertise status=SUCCESS method=OtherOptionsTest.Advertise()[pri:12, instance:com.MyExitTest.tests.OtherOptionsTest@56ba8773] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resultTest -->
+        <test-method is-config="true" signature="testclose()[pri:0, instance:com.MyExitTest.tests.OtherOptionsTest@56ba8773]" started-at="2022-07-14T13:04:51Z" name="testclose" finished-at="2022-07-14T13:04:51Z" duration-ms="52" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testclose -->
+        <test-method is-config="true" signature="intializeDriver()[pri:0, instance:com.MyExitTest.tests.OtherOptionsTest@56ba8773]" started-at="2022-07-14T13:04:51Z" name="intializeDriver" finished-at="2022-07-14T13:04:52Z" duration-ms="1181" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intializeDriver -->
+        <test-method is-config="true" signature="openUrl()[pri:0, instance:com.MyExitTest.tests.OtherOptionsTest@56ba8773]" started-at="2022-07-14T13:04:52Z" name="openUrl" finished-at="2022-07-14T13:04:58Z" duration-ms="5436" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openUrl -->
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:com.MyExitTest.tests.OtherOptionsTest@56ba8773]" started-at="2022-07-14T13:04:58Z" name="startTest" finished-at="2022-07-14T13:04:58Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public static void com.MyExitTest.tests.OtherOptionsTest.BecomeASeller() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method signature="BecomeASeller()[pri:13, instance:com.MyExitTest.tests.OtherOptionsTest@56ba8773]" started-at="2022-07-14T13:04:58Z" name="BecomeASeller" finished-at="2022-07-14T13:05:13Z" duration-ms="14717" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BecomeASeller -->
+        <test-method is-config="true" signature="testclose()[pri:0, instance:com.MyExitTest.tests.OtherOptionsTest@56ba8773]" started-at="2022-07-14T13:05:13Z" name="testclose" finished-at="2022-07-14T13:05:13Z" duration-ms="102" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testclose -->
+        <test-method is-config="true" signature="resultTest(org.testng.ITestResult)[pri:0, instance:com.MyExitTest.tests.OtherOptionsTest@56ba8773]" started-at="2022-07-14T13:05:13Z" name="resultTest" finished-at="2022-07-14T13:05:13Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=BecomeASeller status=SUCCESS method=OtherOptionsTest.BecomeASeller()[pri:13, instance:com.MyExitTest.tests.OtherOptionsTest@56ba8773] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resultTest -->
+        <test-method is-config="true" signature="intializeDriver()[pri:0, instance:com.MyExitTest.tests.OtherOptionsTest@56ba8773]" started-at="2022-07-14T13:05:13Z" name="intializeDriver" finished-at="2022-07-14T13:05:14Z" duration-ms="1187" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intializeDriver -->
+        <test-method is-config="true" signature="openUrl()[pri:0, instance:com.MyExitTest.tests.OtherOptionsTest@56ba8773]" started-at="2022-07-14T13:05:14Z" name="openUrl" finished-at="2022-07-14T13:05:23Z" duration-ms="9498" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openUrl -->
+        <test-method signature="FlipkartYoutube()[pri:14, instance:com.MyExitTest.tests.OtherOptionsTest@56ba8773]" started-at="2022-07-14T13:05:23Z" name="FlipkartYoutube" finished-at="2022-07-14T13:05:32Z" duration-ms="8608" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FlipkartYoutube -->
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:com.MyExitTest.tests.OtherOptionsTest@56ba8773]" started-at="2022-07-14T13:05:23Z" name="startTest" finished-at="2022-07-14T13:05:23Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public static void com.MyExitTest.tests.OtherOptionsTest.FlipkartYoutube() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method is-config="true" signature="testclose()[pri:0, instance:com.MyExitTest.tests.OtherOptionsTest@56ba8773]" started-at="2022-07-14T13:05:32Z" name="testclose" finished-at="2022-07-14T13:05:32Z" duration-ms="176" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testclose -->
+        <test-method is-config="true" signature="resultTest(org.testng.ITestResult)[pri:0, instance:com.MyExitTest.tests.OtherOptionsTest@56ba8773]" started-at="2022-07-14T13:05:32Z" name="resultTest" finished-at="2022-07-14T13:05:32Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=FlipkartYoutube status=SUCCESS method=OtherOptionsTest.FlipkartYoutube()[pri:14, instance:com.MyExitTest.tests.OtherOptionsTest@56ba8773] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resultTest -->
+        <test-method is-config="true" signature="intializeDriver()[pri:0, instance:com.MyExitTest.tests.OtherOptionsTest@56ba8773]" started-at="2022-07-14T13:05:32Z" name="intializeDriver" finished-at="2022-07-14T13:05:33Z" duration-ms="1149" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intializeDriver -->
+        <test-method is-config="true" signature="openUrl()[pri:0, instance:com.MyExitTest.tests.OtherOptionsTest@56ba8773]" started-at="2022-07-14T13:05:33Z" name="openUrl" finished-at="2022-07-14T13:05:38Z" duration-ms="4637" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openUrl -->
+        <test-method signature="ContactUs()[pri:15, instance:com.MyExitTest.tests.OtherOptionsTest@56ba8773]" started-at="2022-07-14T13:05:38Z" name="ContactUs" finished-at="2022-07-14T13:05:42Z" duration-ms="3591" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ContactUs -->
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:com.MyExitTest.tests.OtherOptionsTest@56ba8773]" started-at="2022-07-14T13:05:38Z" name="startTest" finished-at="2022-07-14T13:05:38Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public static void com.MyExitTest.tests.OtherOptionsTest.ContactUs() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method is-config="true" signature="resultTest(org.testng.ITestResult)[pri:0, instance:com.MyExitTest.tests.OtherOptionsTest@56ba8773]" started-at="2022-07-14T13:05:42Z" name="resultTest" finished-at="2022-07-14T13:05:42Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ContactUs status=SUCCESS method=OtherOptionsTest.ContactUs()[pri:15, instance:com.MyExitTest.tests.OtherOptionsTest@56ba8773] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resultTest -->
+        <test-method is-config="true" signature="testclose()[pri:0, instance:com.MyExitTest.tests.OtherOptionsTest@56ba8773]" started-at="2022-07-14T13:05:42Z" name="testclose" finished-at="2022-07-14T13:05:42Z" duration-ms="104" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testclose -->
+        <test-method is-config="true" signature="intializeDriver()[pri:0, instance:com.MyExitTest.tests.OtherOptionsTest@56ba8773]" started-at="2022-07-14T13:05:42Z" name="intializeDriver" finished-at="2022-07-14T13:05:43Z" duration-ms="1172" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intializeDriver -->
+        <test-method is-config="true" signature="openUrl()[pri:0, instance:com.MyExitTest.tests.OtherOptionsTest@56ba8773]" started-at="2022-07-14T13:05:43Z" name="openUrl" finished-at="2022-07-14T13:05:48Z" duration-ms="5554" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openUrl -->
+        <test-method signature="AboutUs()[pri:16, instance:com.MyExitTest.tests.OtherOptionsTest@56ba8773]" started-at="2022-07-14T13:05:48Z" name="AboutUs" finished-at="2022-07-14T13:05:52Z" duration-ms="3194" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AboutUs -->
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:com.MyExitTest.tests.OtherOptionsTest@56ba8773]" started-at="2022-07-14T13:05:48Z" name="startTest" finished-at="2022-07-14T13:05:48Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public static void com.MyExitTest.tests.OtherOptionsTest.AboutUs() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method is-config="true" signature="resultTest(org.testng.ITestResult)[pri:0, instance:com.MyExitTest.tests.OtherOptionsTest@56ba8773]" started-at="2022-07-14T13:05:52Z" name="resultTest" finished-at="2022-07-14T13:05:52Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=AboutUs status=SUCCESS method=OtherOptionsTest.AboutUs()[pri:16, instance:com.MyExitTest.tests.OtherOptionsTest@56ba8773] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resultTest -->
+        <test-method is-config="true" signature="testclose()[pri:0, instance:com.MyExitTest.tests.OtherOptionsTest@56ba8773]" started-at="2022-07-14T13:05:52Z" name="testclose" finished-at="2022-07-14T13:05:52Z" duration-ms="109" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testclose -->
+        <test-method is-config="true" signature="intializeDriver()[pri:0, instance:com.MyExitTest.tests.OtherOptionsTest@56ba8773]" started-at="2022-07-14T13:05:52Z" name="intializeDriver" finished-at="2022-07-14T13:05:53Z" duration-ms="1140" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intializeDriver -->
+        <test-method is-config="true" signature="openUrl()[pri:0, instance:com.MyExitTest.tests.OtherOptionsTest@56ba8773]" started-at="2022-07-14T13:05:53Z" name="openUrl" finished-at="2022-07-14T13:05:57Z" duration-ms="4372" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openUrl -->
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:com.MyExitTest.tests.OtherOptionsTest@56ba8773]" started-at="2022-07-14T13:05:57Z" name="startTest" finished-at="2022-07-14T13:05:57Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public static void com.MyExitTest.tests.OtherOptionsTest.NotificationPreferences() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method signature="NotificationPreferences()[pri:17, instance:com.MyExitTest.tests.OtherOptionsTest@56ba8773]" started-at="2022-07-14T13:05:57Z" name="NotificationPreferences" finished-at="2022-07-14T13:05:57Z" duration-ms="1" status="SKIP">
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[Skipping this exception]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: Skipping this exception
+at com.MyExitTest.utils.CommonUtils.toCheckExecutionRequired(CommonUtils.java:33)
+at com.MyExitTest.tests.OtherOptionsTest.NotificationPreferences(OtherOptionsTest.java:282)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NotificationPreferences -->
+        <test-method is-config="true" signature="resultTest(org.testng.ITestResult)[pri:0, instance:com.MyExitTest.tests.OtherOptionsTest@56ba8773]" started-at="2022-07-14T13:05:57Z" name="resultTest" finished-at="2022-07-14T13:05:57Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=NotificationPreferences status=SKIP method=OtherOptionsTest.NotificationPreferences()[pri:17, instance:com.MyExitTest.tests.OtherOptionsTest@56ba8773] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resultTest -->
+        <test-method is-config="true" signature="testclose()[pri:0, instance:com.MyExitTest.tests.OtherOptionsTest@56ba8773]" started-at="2022-07-14T13:05:57Z" name="testclose" finished-at="2022-07-14T13:05:57Z" duration-ms="110" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testclose -->
+        <test-method is-config="true" signature="intializeDriver()[pri:0, instance:com.MyExitTest.tests.OtherOptionsTest@56ba8773]" started-at="2022-07-14T13:05:57Z" name="intializeDriver" finished-at="2022-07-14T13:05:58Z" duration-ms="1211" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intializeDriver -->
+        <test-method is-config="true" signature="openUrl()[pri:0, instance:com.MyExitTest.tests.OtherOptionsTest@56ba8773]" started-at="2022-07-14T13:05:58Z" name="openUrl" finished-at="2022-07-14T13:06:03Z" duration-ms="4942" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openUrl -->
+        <test-method signature="DownloadApp()[pri:18, instance:com.MyExitTest.tests.OtherOptionsTest@56ba8773]" started-at="2022-07-14T13:06:03Z" name="DownloadApp" finished-at="2022-07-14T13:06:03Z" duration-ms="3" status="SKIP">
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[Skipping this exception]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: Skipping this exception
+at com.MyExitTest.utils.CommonUtils.toCheckExecutionRequired(CommonUtils.java:33)
+at com.MyExitTest.tests.OtherOptionsTest.DownloadApp(OtherOptionsTest.java:316)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DownloadApp -->
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:com.MyExitTest.tests.OtherOptionsTest@56ba8773]" started-at="2022-07-14T13:06:03Z" name="startTest" finished-at="2022-07-14T13:06:03Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public static void com.MyExitTest.tests.OtherOptionsTest.DownloadApp() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method is-config="true" signature="resultTest(org.testng.ITestResult)[pri:0, instance:com.MyExitTest.tests.OtherOptionsTest@56ba8773]" started-at="2022-07-14T13:06:03Z" name="resultTest" finished-at="2022-07-14T13:06:03Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=DownloadApp status=SKIP method=OtherOptionsTest.DownloadApp()[pri:18, instance:com.MyExitTest.tests.OtherOptionsTest@56ba8773] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resultTest -->
+        <test-method is-config="true" signature="testclose()[pri:0, instance:com.MyExitTest.tests.OtherOptionsTest@56ba8773]" started-at="2022-07-14T13:06:03Z" name="testclose" finished-at="2022-07-14T13:06:04Z" duration-ms="94" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testclose -->
+        <test-method is-config="true" signature="intializeDriver()[pri:0, instance:com.MyExitTest.tests.OtherOptionsTest@56ba8773]" started-at="2022-07-14T13:06:04Z" name="intializeDriver" finished-at="2022-07-14T13:06:05Z" duration-ms="1161" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intializeDriver -->
+        <test-method is-config="true" signature="openUrl()[pri:0, instance:com.MyExitTest.tests.OtherOptionsTest@56ba8773]" started-at="2022-07-14T13:06:05Z" name="openUrl" finished-at="2022-07-14T13:06:11Z" duration-ms="6689" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openUrl -->
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:com.MyExitTest.tests.OtherOptionsTest@56ba8773]" started-at="2022-07-14T13:06:11Z" name="startTest" finished-at="2022-07-14T13:06:11Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public static void com.MyExitTest.tests.OtherOptionsTest.GiftCards() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method signature="GiftCards()[pri:19, instance:com.MyExitTest.tests.OtherOptionsTest@56ba8773]" started-at="2022-07-14T13:06:11Z" name="GiftCards" finished-at="2022-07-14T13:06:15Z" duration-ms="4102" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GiftCards -->
+        <test-method is-config="true" signature="testclose()[pri:0, instance:com.MyExitTest.tests.OtherOptionsTest@56ba8773]" started-at="2022-07-14T13:06:15Z" name="testclose" finished-at="2022-07-14T13:06:16Z" duration-ms="112" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testclose -->
+        <test-method is-config="true" signature="resultTest(org.testng.ITestResult)[pri:0, instance:com.MyExitTest.tests.OtherOptionsTest@56ba8773]" started-at="2022-07-14T13:06:15Z" name="resultTest" finished-at="2022-07-14T13:06:15Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=GiftCards status=SUCCESS method=OtherOptionsTest.GiftCards()[pri:19, instance:com.MyExitTest.tests.OtherOptionsTest@56ba8773] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resultTest -->
+        <test-method is-config="true" signature="intializeDriver()[pri:0, instance:com.MyExitTest.tests.OtherOptionsTest@56ba8773]" started-at="2022-07-14T13:06:16Z" name="intializeDriver" finished-at="2022-07-14T13:06:17Z" duration-ms="1160" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intializeDriver -->
+        <test-method is-config="true" signature="openUrl()[pri:0, instance:com.MyExitTest.tests.OtherOptionsTest@56ba8773]" started-at="2022-07-14T13:06:17Z" name="openUrl" finished-at="2022-07-14T13:06:21Z" duration-ms="3923" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openUrl -->
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:com.MyExitTest.tests.OtherOptionsTest@56ba8773]" started-at="2022-07-14T13:06:21Z" name="startTest" finished-at="2022-07-14T13:06:21Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public static void com.MyExitTest.tests.OtherOptionsTest.Facebook() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method signature="Facebook()[pri:20, instance:com.MyExitTest.tests.OtherOptionsTest@56ba8773]" started-at="2022-07-14T13:06:21Z" name="Facebook" finished-at="2022-07-14T13:06:27Z" duration-ms="6736" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Assertion on actual and expected title expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Assertion on actual and expected title expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertTrue(Assert.java:44)
+at com.MyExitTest.tests.OtherOptionsTest.Facebook(OtherOptionsTest.java:392)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Facebook -->
+        <test-method is-config="true" signature="resultTest(org.testng.ITestResult)[pri:0, instance:com.MyExitTest.tests.OtherOptionsTest@56ba8773]" started-at="2022-07-14T13:06:27Z" name="resultTest" finished-at="2022-07-14T13:06:28Z" duration-ms="245" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Facebook status=FAILURE method=OtherOptionsTest.Facebook()[pri:20, instance:com.MyExitTest.tests.OtherOptionsTest@56ba8773] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resultTest -->
+        <test-method is-config="true" signature="testclose()[pri:0, instance:com.MyExitTest.tests.OtherOptionsTest@56ba8773]" started-at="2022-07-14T13:06:28Z" name="testclose" finished-at="2022-07-14T13:06:28Z" duration-ms="93" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testclose -->
       </class> <!-- com.MyExitTest.tests.OtherOptionsTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      <class name="com.MyExitTest.tests.HomeTest">
+        <test-method is-config="true" signature="intializeDriver()[pri:0, instance:com.MyExitTest.tests.HomeTest@5116ac09]" started-at="2022-07-14T13:03:02Z" name="intializeDriver" finished-at="2022-07-14T13:03:03Z" duration-ms="1317" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intializeDriver -->
+        <test-method is-config="true" signature="openUrl()[pri:0, instance:com.MyExitTest.tests.HomeTest@5116ac09]" started-at="2022-07-14T13:03:03Z" name="openUrl" finished-at="2022-07-14T13:03:07Z" duration-ms="3795" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openUrl -->
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:com.MyExitTest.tests.HomeTest@5116ac09]" started-at="2022-07-14T13:03:07Z" name="startTest" finished-at="2022-07-14T13:03:07Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.MyExitTest.tests.HomeTest.FlipkartHome() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method signature="FlipkartHome()[pri:4, instance:com.MyExitTest.tests.HomeTest@5116ac09]" started-at="2022-07-14T13:03:07Z" name="FlipkartHome" finished-at="2022-07-14T13:03:09Z" duration-ms="2316" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FlipkartHome -->
+        <test-method is-config="true" signature="resultTest(org.testng.ITestResult)[pri:0, instance:com.MyExitTest.tests.HomeTest@5116ac09]" started-at="2022-07-14T13:03:09Z" name="resultTest" finished-at="2022-07-14T13:03:09Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=FlipkartHome status=SUCCESS method=HomeTest.FlipkartHome()[pri:4, instance:com.MyExitTest.tests.HomeTest@5116ac09] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resultTest -->
+        <test-method is-config="true" signature="testclose()[pri:0, instance:com.MyExitTest.tests.HomeTest@5116ac09]" started-at="2022-07-14T13:03:09Z" name="testclose" finished-at="2022-07-14T13:03:10Z" duration-ms="132" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testclose -->
+      </class> <!-- com.MyExitTest.tests.HomeTest -->
+      <class name="com.MyExitTest.tests.SearchboxTest">
+        <test-method is-config="true" signature="intializeDriver()[pri:0, instance:com.MyExitTest.tests.SearchboxTest@4b2a30d]" started-at="2022-07-14T13:03:32Z" name="intializeDriver" finished-at="2022-07-14T13:03:33Z" duration-ms="1316" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intializeDriver -->
+        <test-method is-config="true" signature="openUrl()[pri:0, instance:com.MyExitTest.tests.SearchboxTest@4b2a30d]" started-at="2022-07-14T13:03:33Z" name="openUrl" finished-at="2022-07-14T13:03:37Z" duration-ms="3575" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openUrl -->
+        <test-method signature="Searchbox()[pri:7, instance:com.MyExitTest.tests.SearchboxTest@4b2a30d]" started-at="2022-07-14T13:03:37Z" name="Searchbox" finished-at="2022-07-14T13:03:40Z" duration-ms="2464" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Searchbox -->
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:com.MyExitTest.tests.SearchboxTest@4b2a30d]" started-at="2022-07-14T13:03:37Z" name="startTest" finished-at="2022-07-14T13:03:37Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.MyExitTest.tests.SearchboxTest.Searchbox() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method is-config="true" signature="resultTest(org.testng.ITestResult)[pri:0, instance:com.MyExitTest.tests.SearchboxTest@4b2a30d]" started-at="2022-07-14T13:03:40Z" name="resultTest" finished-at="2022-07-14T13:03:40Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Searchbox status=SUCCESS method=SearchboxTest.Searchbox()[pri:7, instance:com.MyExitTest.tests.SearchboxTest@4b2a30d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resultTest -->
+        <test-method is-config="true" signature="testclose()[pri:0, instance:com.MyExitTest.tests.SearchboxTest@4b2a30d]" started-at="2022-07-14T13:03:40Z" name="testclose" finished-at="2022-07-14T13:03:40Z" duration-ms="118" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testclose -->
+      </class> <!-- com.MyExitTest.tests.SearchboxTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
